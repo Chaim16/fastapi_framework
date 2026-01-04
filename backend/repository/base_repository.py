@@ -1,8 +1,8 @@
-from typing import Generic, TypeVar, Type, Optional, List, Any
+from typing import Generic, TypeVar, Type, Optional, List
 from sqlalchemy.orm import Session
-from sqlalchemy import and_, or_
+from sqlalchemy import and_
 
-from utils.database import Base
+from backend.utils.database import Base
 
 ModelType = TypeVar("ModelType", bound=Base)
 

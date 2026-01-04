@@ -1,10 +1,10 @@
 import time
 import uuid
 
-from fastapi import FastAPI, Request
+from fastapi import Request
 from starlette.middleware.base import BaseHTTPMiddleware
 
-from utils.logger import get_logger
+from backend.utils.logger import get_logger
 
 logger = get_logger("access")
 

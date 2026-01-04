@@ -1,10 +1,9 @@
-import ipaddress
 import os
 import re
 
 import yaml
 
-from utils.constains import PROJECT_HOME
+from backend.utils.constains import PROJECT_HOME
 
 
 def read_yaml_config(file_path=os.path.join(PROJECT_HOME, "conf", "application.yaml")):

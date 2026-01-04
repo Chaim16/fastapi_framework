@@ -121,7 +121,7 @@ ipython_config.py
 # pixi
 #   Similar to Pipfile.lock, it is generally recommended to include pixi.lock in version control.
 #pixi.lock
-#   Pixi creates a virtual environment in the .pixi directory, just like venv module creates one
+#   Pixi creates a virtual environment in the .venv directory, just like venv module creates one
 #   in the .venv directory. It is recommended not to include this directory in version control.
 .pixi
 
@@ -207,3 +207,90 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 logs
+
+# Frontend specific files and directories
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.nuxt/
+frontend/nuxt/
+frontend/.next/
+frontend/out/
+frontend/.angular/
+frontend/e2e/
+frontend/cypress/
+frontend/test/
+frontend/tests/
+frontend/__tests__/
+frontend/spec/
+frontend/specs/
+frontend/.npm/
+frontend/.yarn/
+frontend/.cache/
+frontend/.eslintcache
+frontend/.stylelintcache
+frontend/.vscode/
+frontend/.idea/
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/.git/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/.env*
+frontend/.DS_Store
+frontend/.vs
+frontend/.history/
+frontend/.temp/
+frontend/temp/
+frontend/.tmp/
+frontend/tmp/
+frontend/.coverage/
+frontend/coverage/
+frontend/.nyc_output/
+frontend/nyc_output/
+frontend/coverage-final.json
+frontend/lib-cov
+frontend/.nyc_output
+frontend/.sass-cache/
+frontend/nuxt/
+frontend/.output/
+frontend/.vite/
+frontend/.vite-inspect/
+frontend/.wrangler/
+frontend/.docusaurus/
+
+# Frontend build artifacts
+frontend/public/dist/
+frontend/public/build/
+frontend/static/dist/
+frontend/static/build/
+
+# Lock files
+frontend/yarn.lock
+frontend/pnpm-lock.yaml
+frontend/shrinkwrap.yaml
+frontend/npm-shrinkwrap.json
+
+# IDE specific files
+frontend/.vscode/*
+frontend/.idea/*
+frontend/.project
+frontend/.settings/
+frontend/.classpath
+frontend/.factorypath
+
+# OS generated files
+frontend.DS_Store
+frontend.*.swp
+frontend.*.swo
+frontend._*
+frontend.svn/
+frontend.venv/
+frontend.venv
+frontend.pytest_cache/
+frontend.pytest_cache

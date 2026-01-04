@@ -1,9 +1,8 @@
 import time
 
-from sqlalchemy import Column, BIGINT, inspect, String, JSON, ARRAY, INT, TEXT, Boolean, ForeignKey
-from sqlalchemy.orm import relationship
+from sqlalchemy import Column, BIGINT, inspect, String, JSON, ARRAY
 
-from utils.database import Base
+from backend.utils.database import Base
 
 
 class BaseModel(Base):
